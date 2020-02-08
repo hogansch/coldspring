@@ -8,7 +8,6 @@ from wagtail.core import blocks
 from wagtail.admin.edit_handlers import FieldPanel, StreamFieldPanel, FieldRowPanel, InlinePanel
 from wagtail.images.blocks import ImageChooserBlock
 from wagtail.images.edit_handlers import ImageChooserPanel
-from colorfield.fields import ColorField
 from wagtail.embeds.blocks import EmbedBlock
 
 class CustomImageChooserBlock(blocks.StructBlock):

@@ -187,12 +187,12 @@ BASE_URL = 'http://example.com'
 
 # Wagtail GMaps
 # Mandatory
-WAGTAIL_ADDRESS_MAP_CENTER = 'Santa Barbara, California'  # It must be a properly formatted address
-WAGTAIL_ADDRESS_MAP_KEY = 'AIzaSyCcpm-Fpi5ziaXSknSW8QqE1ovoUtzIprw'
+# WAGTAIL_ADDRESS_MAP_CENTER = 'Santa Barbara, California'  # It must be a properly formatted address
+# WAGTAIL_ADDRESS_MAP_KEY = 'AIzaSyCcpm-Fpi5ziaXSknSW8QqE1ovoUtzIprw'
 
-# Optional
-WAGTAIL_ADDRESS_MAP_ZOOM = 8  # See https://developers.google.com/maps/documentation/javascript/tutorial#MapOptions for more information.
-WAGTAIL_ADDRESS_MAP_LANGUAGE = 'en'  # See https://developers.google.com/maps/faq#languagesupport for supported languages.
+# # Optional
+# WAGTAIL_ADDRESS_MAP_ZOOM = 8  # See https://developers.google.com/maps/documentation/javascript/tutorial#MapOptions for more information.
+# WAGTAIL_ADDRESS_MAP_LANGUAGE = 'en'  # See https://developers.google.com/maps/faq#languagesupport for supported languages.
 
 RECAPTCHA_PUBLIC_KEY = '6LcWCc4UAAAAAEfE9zAMM_oAFYx9Sv2qkXOUDC3H'
 RECAPTCHA_PRIVATE_KEY = '6LcWCc4UAAAAAF13Tw79yaqQDKebEZMhlqRVNK54'
