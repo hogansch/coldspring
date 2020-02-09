@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'trustees',
     'staff',
     'agendas',
+<<<<<<< HEAD
     'minutes',
     'nav',
     'wagtailgmaps',
@@ -43,6 +44,9 @@ INSTALLED_APPS = [
     'map',
     'calendars',
 
+=======
+    'nav',
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
 
     'wagtail.contrib.modeladmin',
     'wagtailmenus',
@@ -184,6 +188,7 @@ WAGTAIL_SITE_NAME = "coldspring3"
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'http://example.com'
+<<<<<<< HEAD
 
 # Wagtail GMaps
 # Mandatory
@@ -197,3 +202,5 @@ BASE_URL = 'http://example.com'
 RECAPTCHA_PUBLIC_KEY = '6LcWCc4UAAAAAEfE9zAMM_oAFYx9Sv2qkXOUDC3H'
 RECAPTCHA_PRIVATE_KEY = '6LcWCc4UAAAAAF13Tw79yaqQDKebEZMhlqRVNK54'
 
+=======
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b

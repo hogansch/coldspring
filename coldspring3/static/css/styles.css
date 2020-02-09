@@ -7,6 +7,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+<<<<<<< HEAD
     
 }
 /* @media only screen and (max-width: 767px) {
@@ -18,6 +19,9 @@ body {
     }
 
 } */
+=======
+}
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
 
 #bootstrap-overrides .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,1);
@@ -35,8 +39,11 @@ body {
 #bootstrap-overrides .dropdown-menu {
     padding: 0;
     width: 300px;
+<<<<<<< HEAD
     box-shadow: 4px 4px 4px rgb(120, 120, 120);
     margin-top: 7px;
+=======
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
 }
 
 #bootstrap-overrides .dropdown-item {
@@ -113,7 +120,11 @@ ol.carousel-indicators li:hover {
 }
 
 .carousel-caption {
+<<<<<<< HEAD
     background-color: rgba(4, 4, 53, 0.2);
+=======
+    background-color: rgba(4, 4, 53, 0.742);
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
     left: 0;
     width: 50%;
     padding: 20px;
@@ -333,11 +344,29 @@ h2 {
     
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
 .above-footer {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/background-kids.jpg');
     border-top: solid orange 5px;
     background-size: cover;
+<<<<<<< HEAD
     margin-left: -15px;
+=======
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
 }
 
 .textbox {
@@ -350,7 +379,11 @@ h2 {
 
 .read-more {
     text-decoration: none;
+<<<<<<< HEAD
     font-weight: 400;
+=======
+    font-weight: bolder;
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
     color: black;
 }
 
@@ -380,7 +413,11 @@ h2 {
 
 
 footer {
+<<<<<<< HEAD
     background-color: #3B5274;
+=======
+    background-color: rgb(38,44,86);
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
     color: rgb(255, 255, 255);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -394,9 +431,16 @@ footer {
 
 .footer-text {
     text-align: center;
+<<<<<<< HEAD
     font-weight: 300;
     line-height: 25px;
     font-size: 17px;
+=======
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 25px;
+    font-size: 1em;
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
     max-width: 97%;
 }
 
@@ -448,7 +492,11 @@ footer {
     padding-bottom: 5px;
     }
 
+<<<<<<< HEAD
 .htf{
+=======
+    .htf{
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
     font-size:40px;
     text-transform:uppercase;
     color:white;
@@ -456,24 +504,39 @@ footer {
     line-height: 50px;
     letter-spacing: 0.5px;
     margin-bottom: 0px
+<<<<<<< HEAD
 }
 
     /* Header bottom font  */
 .hbf{
+=======
+    }
+
+    /* Header bottom font  */
+    .hbf{
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
     margin-top:0px;
     color:white;
     font-size:18px;
     font-weight: 300;
     line-height: 28px;
     letter-spacing: 0.5px;
+<<<<<<< HEAD
 }
 
     /* Header bottom font  */
 .navbar-nav {
+=======
+    }
+
+    /* Header bottom font  */
+    .navbar-nav {
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
     float:none;
     margin:0 auto;
 
     text-align: center;
+<<<<<<< HEAD
 }
 
 .navbar-nav  li {
@@ -483,6 +546,17 @@ footer {
 
     /* style links inside nav bar  */
 .navbar a {
+=======
+    }
+
+    .navbar-nav  li {
+    display: inline-block;
+    float:none;
+    }
+
+    /* style links inside nav bar  */
+    .navbar a {
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
     color: black;
     text-decoration: none;
     text-align: center;
@@ -493,13 +567,18 @@ footer {
     padding-top:20px;
     font-weight: 300;
     margin-bottom: -8px;
+<<<<<<< HEAD
 }
+=======
+    }
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
 
     /* style drop down menu  */
     /* .dropdown-menu li:hover .sub-menu {
     visibility: visible;
     } */
 
+<<<<<<< HEAD
 .dropdown:hover .dropdown-menu {
     display:block;
     padding-right:15px;
@@ -555,6 +634,58 @@ footer {
 
 }
 
+=======
+    .dropdown:hover .dropdown-menu {
+    display:block;
+    padding-right:15px;
+    }
+    
+    .dropright:hover #dropright {
+        display: block;
+    }
+
+
+   .dropdown-item{
+     border-bottom: 1px solid black;
+     
+     }
+
+    .navbar a:hover {
+    color: blue;
+    color: black;
+
+
+    }
+
+    .dropdown-menu a:hover {
+        color: black;
+        padding-right:15px;
+        bottom: 1px solid black;
+        background-color:none;
+    }
+
+     .dropdown-menu a {
+ border-right:none;
+   border-bottom: 1px solid black;
+    }
+
+    /* button */
+    .btn{
+
+    font-size:16px;
+    text-transform:uppercase;
+    height:45px;
+
+    border-radius:8px;
+    background-color:orange;
+    margin-top:1px;
+
+    }
+
+    .collapse-btn{
+
+    }
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
 
 #bottom-widget:focus {
     outline: 0;
@@ -566,6 +697,7 @@ footer {
     }
 
  }
+<<<<<<< HEAD
 
 /* Sticky Footer */
  html, body {
@@ -581,3 +713,5 @@ footer {
   footer {
     flex-shrink: 0;
   }
+=======
+>>>>>>> 61656229ee93910405da2e28ed67c084085d735b
